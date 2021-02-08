@@ -1,0 +1,89 @@
+.login_body {
+  background: url("../../assets/images/misc/home-bg.jpg") center center
+    no-repeat;
+  background-size: cover;
+  height: 820px;
+  box-shadow: inset -10px -20px 50px 50px black;
+  .logo {
+    height: 25px;
+    margin-top: 15px;
+    margin-left: -789px;
+  }
+
+  .container {
+    width: auto;
+    // display: flex;
+    // justify-content: flex-start;
+  }
+  .form {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 280px;
+    height: 400px;
+    margin: auto;
+
+    .text {
+      padding-top: 35px;
+      padding-right: 130px;
+      padding-bottom: 15px;
+    }
+    .login_input {
+      height: 35px;
+      background-color: #333;
+      padding: 10px;
+      margin-bottom: 10px;
+      outline-style: none;
+    }
+    .button {
+      background-color: red;
+      outline-style: none;
+      cursor: pointer;
+      width: 190px;
+      height: 35px;
+    }
+    .checkbox {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding-right: 21px;
+      font-size: 12px;
+      .check {
+        padding-left: 19px;
+        padding-top: 13px;
+      }
+      h6 {
+        // padding-left: 19px;
+        padding-top: 17px;
+      }
+    }
+    .fb_logo {
+      display: flex;
+      margin-top: 35px;
+      // word-spacing: 5px;
+      i {
+        margin-left: 40px;
+        font-size: 14px;
+      }
+      p {
+        padding-left: 15px;
+        font-size: 9px;
+      }
+    }
+    .sign {
+      margin-top: 5px;
+      display: flex;
+      p {
+        padding-left: 35px;
+        font-size: 9px;
+        color: #333;
+      }
+    }
+    .mess {
+      margin-top: 5px;
+      font-size: 10px;
+      color: #333;
+      padding-left: 22px;
+      width: 263px;
+      text-align: justify;
+    }
+  }
+}

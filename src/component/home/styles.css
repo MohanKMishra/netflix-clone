@@ -203,27 +203,38 @@
 
 .footer {
   background-color: black;
-  color: #333;
-  height: 300px;
-}
-
-.footer .sub_footer {
-  color: #333;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  line-height: 25px;
-  font-size: 13px;
-  font-weight: 400;
-  max-width: 1000px;
+  margin-top: 9px;
 }
 
 .footer h3 {
-  cursor: pointer;
-  padding-top: 55px;
+  padding: 15px 0;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: left;
+}
+
+.column {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  padding: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .column {
+    -webkit-box-flex: 25%;
+        -ms-flex: 25%;
+            flex: 25%;
+  }
 }
 
 .jumbo_wrapper {

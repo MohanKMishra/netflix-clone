@@ -1,10 +1,10 @@
 import React from "react";
 
 import "./app.css";
-import Home from "./component/home/Home";
+import Routes from "./component/routes/Routes";
 
 const App = () => {
-  return <Home />;
+  return <Routes />;
 };
 
 export default App;

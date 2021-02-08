@@ -1,0 +1,109 @@
+.login_body {
+  background: url("../../assets/images/misc/home-bg.jpg") center center no-repeat;
+  background-size: cover;
+  height: 820px;
+  -webkit-box-shadow: inset -10px -20px 50px 50px black;
+          box-shadow: inset -10px -20px 50px 50px black;
+}
+
+.login_body .logo {
+  height: 25px;
+  margin-top: 15px;
+  margin-left: -789px;
+}
+
+.login_body .container {
+  width: auto;
+}
+
+.login_body .form {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 280px;
+  height: 400px;
+  margin: auto;
+}
+
+.login_body .form .text {
+  padding-top: 35px;
+  padding-right: 130px;
+  padding-bottom: 15px;
+}
+
+.login_body .form .login_input {
+  height: 35px;
+  background-color: #333;
+  padding: 10px;
+  margin-bottom: 10px;
+  outline-style: none;
+}
+
+.login_body .form .button {
+  background-color: red;
+  outline-style: none;
+  cursor: pointer;
+  width: 190px;
+  height: 35px;
+}
+
+.login_body .form .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-right: 21px;
+  font-size: 12px;
+}
+
+.login_body .form .checkbox .check {
+  padding-left: 19px;
+  padding-top: 13px;
+}
+
+.login_body .form .checkbox h6 {
+  padding-top: 17px;
+}
+
+.login_body .form .fb_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 35px;
+}
+
+.login_body .form .fb_logo i {
+  margin-left: 40px;
+  font-size: 14px;
+}
+
+.login_body .form .fb_logo p {
+  padding-left: 15px;
+  font-size: 9px;
+}
+
+.login_body .form .sign {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.login_body .form .sign p {
+  padding-left: 35px;
+  font-size: 9px;
+  color: #333;
+}
+
+.login_body .form .mess {
+  margin-top: 5px;
+  font-size: 10px;
+  color: #333;
+  padding-left: 22px;
+  width: 263px;
+  text-align: justify;
+}
+/*# sourceMappingURL=Login.css.map */
