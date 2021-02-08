@@ -1,0 +1,249 @@
+// =====BODY==== //
+.body {
+  background: url("../../assets/images/misc/home-bg.jpg") center center
+    no-repeat;
+  background-size: cover;
+  height: 520px;
+  box-shadow: inset -10px -20px 50px 50px black;
+
+  .body_mess {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    .logo {
+      height: 25px;
+      width: auto;
+    }
+    .sign_in {
+      cursor: pointer;
+      background-color: #d81f26;
+      height: 28px;
+      border-radius: 4px;
+      line-height: 28px;
+      padding: 0 8px;
+      font-size: 14px;
+    }
+  }
+  .unlimited {
+    .hero {
+      margin-top: 50px;
+    }
+    .sub_title {
+      margin: 10px auto;
+    }
+  }
+}
+
+// SKMPSMPSNOINOC
+.form_reg {
+  input {
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 15px;
+    padding: 0 10px;
+  }
+  .button {
+    background-color: #d81f26;
+    color: white;
+    height: 50px;
+    // width: 150px;
+    max-width: 180px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: auto;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+  }
+  .text {
+    height: 100px;
+    padding-top: 51px;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px auto;
+  }
+}
+// ====REGISTRATION==== //
+.reg_form {
+  input {
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 15px;
+    padding: 0 10px;
+  }
+  .button {
+    background-color: #d81f26;
+    color: white;
+    height: 50px;
+    // width: 150px;
+    max-width: 180px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: auto;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+  }
+}
+
+// ==== FOOTER ==== //
+.page {
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  height: 450px;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+  cursor: pointer;
+  margin-left: 19px;
+  margin-top: 12px;
+  padding-top: 20px;
+
+  // justify-content: space-between;
+}
+.right {
+  cursor: pointer;
+  margin-top: 12px;
+  margin-left: 412px;
+  // background-color: red;
+}
+
+//==box==//
+.box {
+  background-color: black;
+  cursor: pointer;
+  padding-top: 45px;
+  h4 {
+    cursor: pointer;
+    margin-bottom: 21px;
+    text-align: center;
+    font-size: 28px;
+  }
+}
+.faq {
+  cursor: pointer;
+  width: 0 auto;
+  max-width: 500px;
+  margin: auto;
+  cursor: pointer;
+  background-color: #333;
+  border: 5px solid black;
+  margin-bottom: 5px;
+  .text {
+    cursor: pointer;
+    display: flex;
+    // flex-direction: column;
+    justify-content: space-between;
+    font-weight: 400;
+    width: 100%;
+    .header {
+      width: 0 auto;
+      padding-left: 11px;
+      padding-top: 11px;
+      padding-bottom: 11px;
+      font-size: 19px;
+    }
+  }
+  .symbol {
+    font-size: 30px;
+    padding-right: 15px;
+  }
+  .paragraph {
+    cursor: pointer;
+    background-color: #333;
+  }
+}
+
+.input {
+  cursor: pointer;
+  padding-top: 21px;
+  padding-bottom: 39px;
+  border-bottom: 4px solid #333;
+  input {
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  button {
+    cursor: pointer;
+    background-color: #d81f26;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    line-height: 40px;
+    margin: auto;
+    border-radius: 2px;
+  }
+}
+
+//==footer==//
+.footer {
+  background-color: black;
+  color: #333;
+  height: 300px;
+  .sub_footer {
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: 400;
+    max-width: 1000px;
+  }
+
+  h3 {
+    cursor: pointer;
+    padding-top: 55px;
+    // background-color: red;
+  }
+}
+
+// ====JUMBOTRON==== //
+.jumbo_wrapper {
+  background-color: black;
+  margin: 6px 0;
+  .jumbo {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 100px auto;
+    img {
+      margin: 0 auto;
+      width: 90%;
+    }
+    .sec_img {
+      width: 50%;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .jumbo_wrapper {
+    .jumbo {
+      flex-direction: row;
+      align-items: center;
+      .jum {
+        max-width: 50%;
+      }
+      img {
+        width: 40%;
+      }
+      .sec_img {
+        width: 18%;
+      }
+    }
+    .rev {
+      flex-direction: row-reverse;
+    }
+  }
+}
