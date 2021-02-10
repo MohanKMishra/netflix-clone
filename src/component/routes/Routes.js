@@ -1,6 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Login from "../auth/Login";
+import Movielist from "../auth/Movielist";
 import Home from "../home/Home";
 
 const Routes = () => {
@@ -12,9 +13,9 @@ const Routes = () => {
       <Route path="/login">
         <Login />
       </Route>
-      {/* <Route path="/home">
-        <Home />
-      </Route> */}
+      <Route path="/Movielist">
+        <Movielist />
+      </Route>
     </Switch>
   );
 };

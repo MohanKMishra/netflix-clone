@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.bg {
+  background: url("../../assets/images/misc/home-imac.jpg") center center
+    no-repeat;
+  background-size: cover;
+  height: 100vh;
+  .navbar {
+    display: flex;
+    // justify-content: space-between;
+    .logo {
+      height: 25px;
+      margin-top: 15px;
+      margin-left: 79px;
+    }
+    .option {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 15px;
+      li {
+        margin: 15px;
+        // display: inline-block;
+        color: red;
+        list-style-type: none;
+      }
+    }
+  }
+  .caption {
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 90px;
+  }
+
+  .play {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 90px;
+    background-color: #333;
+    width: 90px;
+    margin-top: 10px;
+    height: 28px;
+    align-items: center;
+  }
+  .list {
+    height: 28px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    width: 100px;
+    margin-top: -29px;
+    margin-left: 190px;
+  }
+  .movie_info {
+    h4 {
+      // margin-left: -1029px;
+      margin-top: 10px;
+      text-align: justify;
+      margin-left: 75px;
+    }
+    p {
+      text-align: justify;
+      margin-top: 9px;
+      margin-left: 75px;
+    }
+  }
+}
+.movie_pic {
+  margin-top: -400px;
+  .zoom {
+    padding-left: 20px;
+    padding-bottom: 50px;
+    transition: transform 0.2s;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+  .zoom:hover {
+    -ms-transform: scale(1.7); /* IE 9 */
+    -webkit-transform: scale(1.7); /* Safari 3-8 */
+    transform: scale(1.7);
+  }
+  .row_caption {
+    text-align: left;
+    margin-left: 95px;
+    margin-top: 19px;
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,121 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  background: url("../../assets/images/misc/home-imac.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.bg .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bg .navbar .logo {
+  height: 25px;
+  margin-top: 15px;
+  margin-left: 79px;
+}
+
+.bg .navbar .option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 15px;
+}
+
+.bg .navbar .option li {
+  margin: 15px;
+  color: red;
+  list-style-type: none;
+}
+
+.bg .caption {
+  width: 50px;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.bg .play {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 90px;
+  background-color: #333;
+  width: 90px;
+  margin-top: 10px;
+  height: 28px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bg .list {
+  height: 28px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #333;
+  width: 100px;
+  margin-top: -29px;
+  margin-left: 190px;
+}
+
+.bg .movie_info h4 {
+  margin-top: 10px;
+  text-align: justify;
+  margin-left: 75px;
+}
+
+.bg .movie_info p {
+  text-align: justify;
+  margin-top: 9px;
+  margin-left: 75px;
+}
+
+.movie_pic {
+  margin-top: -400px;
+}
+
+.movie_pic .zoom {
+  padding-left: 20px;
+  padding-bottom: 50px;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.movie_pic .zoom:hover {
+  /* IE 9 */
+  -webkit-transform: scale(1.7);
+  /* Safari 3-8 */
+  transform: scale(1.7);
+}
+
+.movie_pic .row_caption {
+  text-align: left;
+  margin-left: 95px;
+  margin-top: 19px;
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=Movielist.css.map */

@@ -1,7 +1,10 @@
 import React from "react";
 import "./Login.css";
 import svg from "../../logo.svg";
+import { useHistory } from "react-router-dom";
+
 const Login = () => {
+  const history = useHistory();
   return (
     <>
       <div className="login_body">
@@ -22,10 +25,10 @@ const Login = () => {
             placeholder="Password"
           ></input>
           <input
-            // className="login_input"
             type="button"
             value="Sign In"
             className="button"
+            onClick={() => history.push("/Movielist")}
           ></input>
           <div className="checkbox">
             <div className="check">
@@ -35,7 +38,7 @@ const Login = () => {
             <h6>Need help?</h6>
           </div>
           <div className="fb_logo">
-            <i class="fab fa-facebook-f"></i>
+            <i className="fab fa-facebook-f"></i>
             <p>Login with Facebook</p>
           </div>
           <div className="sign">
